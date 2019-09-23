@@ -1,0 +1,70 @@
+<style type="text/css">
+	.MainMenuScreen
+	{
+		margin: auto;
+		text-align: center;
+		display: MainMenuScreen;
+	}
+	.MainScreenCell
+	{
+		margin: auto;
+		display: ScreenCell;
+		text-align: center;
+        border: solid;
+        width: 200px;
+		height: 200px;
+        padding-left: 1px;
+        padding-right: 1px;
+		font-weight: bold;
+        font-size: larger;
+	}
+	.ExchangePageButton
+	{	
+		position:absolute;
+		left:520px;
+		top:90px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.AddtoInventoryButton
+	{	
+		position:absolute;
+		left:520px;
+		top:130px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.AccountInfoButton
+	{	
+		position:absolute;
+		left:520px;
+		top:170px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.SellItemsButton
+	{	
+		position:absolute;
+		left:520px;
+		top:210px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.LogoutButton
+	{	
+		position:absolute;
+		left:520px;
+		top:250px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}

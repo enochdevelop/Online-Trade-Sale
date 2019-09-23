@@ -1,0 +1,47 @@
+<style type="text/css">
+	.AccountInfoScreen
+	{
+		margin: auto;
+		text-align: center;
+		display: AccountInfoScreen;
+	}
+	.MainScreenCell
+	{
+		margin: auto;
+		display: ScreenCell;
+		text-align: center;
+        border: solid;
+        width: 1000px;
+		height: 1000px;
+        padding-left: 1px;
+        padding-right: 1px;
+		font-weight: bold;
+        font-size: larger;
+	}
+	table, th, td {
+		margin: auto;
+		border: 5px solid black;
+		text-align: center;
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+	.SaveChangesButton
+	{
+		position:absolute;
+		left:400px;
+		top:1000px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.ReturnToMainMenuButton
+	{
+		position:absolute;
+		left:600px;
+		top:1000px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}

@@ -1,0 +1,66 @@
+<style type="text/css">
+	.LoginScreen
+    {
+		margin: auto;
+		text-align: center;
+		display: LoginScreen;
+		background-image: url (https://png.pngtree.com/thumb_back/fw800/back_pic/04/48/50/00585a3568a0a7d.jpg);
+    }
+	.MainScreenCell
+	{
+		background-image: url (https://png.pngtree.com/thumb_back/fw800/back_pic/04/48/50/00585a3568a0a7d.jpg);
+		margin: auto;
+		display: ScreenCell;
+		text-align: center;
+        border: solid;
+        width: 400px;
+		height: 400px;
+        padding-left: 1px;
+        padding-right: 1px;
+		font-weight: bold;
+        font-size: larger;
+	}
+	.UserNameField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.PasswordField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.LoginButton
+	{
+		position:absolute;
+		left:520px;
+		top:300px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.CreateAccountButton
+	{
+		position:absolute;
+		left:520px;
+		top:350px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.ForgotPasswordButton
+	{
+		position:absolute;
+		left:520px;
+		top:400px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}

@@ -1,0 +1,47 @@
+<style type="text/css">
+	.ExchangePageScreen
+    {
+		margin: auto;
+		text-align: center;
+		display: ExchangePageScreen;
+    }
+	.MainScreenCell
+	{
+		margin: auto;
+		display: ScreenCell;
+		text-align: center;
+        border: solid;
+        width: 967px;
+		height: 500px;
+        padding-left: 1px;
+        padding-right: 1px;
+		font-weight: bold;
+        font-size: larger;
+	}
+	table, th, td {
+		margin: auto;
+		border: 5px solid black;
+		text-align: center;
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+	.SubmitChangesButton
+	{
+		position:absolute;
+		left:550px;
+		top:530px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.ReturnToMainMenuButton
+	{
+		position:absolute;
+		left:750px;
+		top:530px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}

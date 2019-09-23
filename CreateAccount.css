@@ -1,0 +1,110 @@
+<style type="text/css">
+	.CreateAccountScreen
+    {
+		margin: auto;
+		text-align: center;
+		display: CreateAccountScreen;
+    }
+	.MainScreenCell
+	{
+		margin: auto;
+		display: ScreenCell;
+		text-align: center;
+        border: solid;
+        width: 590px;
+		height: 1200px;
+        padding-left: 1px;
+        padding-right: 1px;
+		font-weight: bold;
+        font-size: larger;
+	}
+	.EmailField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.VerifyEmailField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.YourNameField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.UserNameField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.PasswordField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.VerifyPasswordField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.PasswordHintField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.CardNumberField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.CVVField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.ExpirationDateField
+	{
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.CreateAccountButton
+	{
+		position:absolute;
+		left:500px;
+		top:1200px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}
+	.ReturnToLoginButton
+	{
+		position:absolute;
+		left:750px;
+		top:1200px;
+		width:400px;
+		height:50px;
+		color:Black;
+		margin:auto;
+	}

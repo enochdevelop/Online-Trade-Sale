@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="CreateAccount.css">
+<script src="CreateAccount.js"></script>
+	<div class="CreateAccountScreen">
+		<p><h1><center>Create Account</center></h1></p>
+	</div>
+	<form action="insert.php" method="POST">
+	<div class="MainScreenCell">
+		<div class="EmailField">
+			<h3>Your Email:</h3>
+			<input type="text" id="YourEmail" value="" placeholder="JohnDoe@example.com" name="YourEmail"/>   
+		</div><br>
+		<div class="VerifyEmailField">
+			<h3>Verify Email:</h3>
+			<input type="text" id="VerifyEmail" value="" placeholder="JohnDoe@example.com" name="VerifyEmail"/>   
+		</div><br>
+		<div class="YourNameField">
+			<h3>Your Name:</h3>
+			<input type="text" id="YourName" value="" placeholder="John Doe" name="YourName"/>   
+		</div><br>
+		<div class="UserNameField">
+			<h3>User Name:</h3>
+			<input type="text" id="UserName" value="" placeholder="JohnDoe" name="UserName"/>   
+		</div><br>
+		<div class="PasswordField">
+			<h3>Password:</h3>
+			<input type="text" id="Password" value="" placeholder="**********" name="Password"/>
+		</div><br>
+		<div class="VerifyPasswordField">
+			<h3>Verify Password:</h3>
+			<input type="text" id="VerifyPassword" value="" placeholder="**********" name="VerifyPassword"/>   
+		</div><br>
+		<div class="PasswordHintField">
+			<h3>Password Hint:</h3>
+			<input type="text" id="Hint" value="" placeholder="Password Reminder" name="Hint"/>
+		</div><br>
+		<h3>Credit Card Information:</h3>
+		<div class="CardNumberField">
+			<h3>Card Number:</h3>
+			<input type="text" id="CardNumber" value="" maxLength="20" placeholder="xxxx-xxxx-xxxx-xxxx" name="CardNumber"/> 
+		</div><br>
+		<div class="CVVField">
+			<h3>CVV:</h3>
+			<input type="text" id="CVV" value="" maxLength="3" style="width: 30px;" placeholder="xxx" name="CVV"/> 
+		</div><br>
+		<div class="ExpirationDateField">
+			<h3>Expiration Date:</h3>
+			<input type="text" id="ExpDate" value="" maxLength="2" style="width: 20px;" placeholder="xx"/> / <input type="text" id="ExpDate" value="" maxLength="2" style="width: 20px;" placeholder="xx"/>
+		</div><br>
+		<div class="DepositAmountMenu">
+			<h3>Deposit Amount:</h3>
+			<select>
+				<option value=""></option>
+				<option value="$100">$100</option>
+				<option value="$200">$200</option>
+				<option value="$300">$300</option>
+				<option value="$400">$400</option>
+				<option value="$500">$500</option>
+				<option value="$600">$600</option>
+				<option value="$700">$700</option>
+				<option value="$800">$800</option>
+				<option value="$900">$900</option>
+				<option value="$1000">$1000</option>
+			</select>
+		</div>
+		<div class="CreateAccountButton">
+			<input type="button" id="CreateAccount" value="Create Account"/><br>
+		</div>
+		<div class="ReturnToLoginButton">
+			<input type="button" id="ReturnToLogin" onclick="window.location.href='Login.html'" value="Return To Login"/><br>
+		</div>
+	</div>
+	</form>

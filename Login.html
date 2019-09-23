@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="Login.css">
+<script src="Login.js"></script>
+	<div class="LoginScreen">
+		<div class="LoginScreen">
+			<p><h1><center>Login</center></h1></p>
+		</div>
+	</div>
+	<form action="insert.php" method="POST">
+	<form name="Login">
+	<div class="MainScreenCell">
+		<div class="UserNameField">
+			<h3>User Name:</h3><br>
+			<input type="text" name="UserName" required/>   
+		</div><br>
+		<div class="PasswordField">
+			<h3>Password:</h3><br>
+			<input type="text" name="Password"required/>   
+		</div><br>
+		<div class="LoginButton">
+			<input type="button" id="Login" onclick="window.location.href='MainMenu.html'" onclick="check(this.form)" value="Login" name="LoginButton"/><br>
+		</div>
+		<div class="CreateAccountButton">
+		Don't Have an Account?<br>
+			<input type="button" id="CreateAccount" onclick="window.location.href='CreateAccount.html'" value="Create Account" name="CreateAccountButton" />
+		</div>
+		<div class="ForgotPasswordButton">
+		Forgot Password?<br>
+			<input type="button" id="RetreivePassword" onclick="window.location.href='RetrievePassword.html'" value="Retreive Password" name="ForgotPasswordButton" /><br>
+		</div>
+	</div>
+	</form>
+</form>
